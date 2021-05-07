@@ -1,7 +1,7 @@
 const mensaje_ohm = () => {
     const u = document.querySelector("#inp_1").value;
     const d = document.querySelector("#inp_2").value;
-;
+
     
         
     
