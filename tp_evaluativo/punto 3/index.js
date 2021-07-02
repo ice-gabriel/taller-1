@@ -11,7 +11,7 @@ function pitagoras(a, b){
 
 
 let A = Math.pow(a, 2)
-let B = Math.pow(b, 2)
+let B = parseInt(2) * parseInt(9.8) * parseInt(b)
 let suma = parseInt(A) + parseInt(B)
 
 
