@@ -12,9 +12,9 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-Danger bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-primary bg-primary">
         <div class="container-fluid">
-          <p class="navbar-brand text-light" >Teorema de pitagoras</p>
+          <p class="navbar-brand text-light" >Caida libre</p>
         </div>
       </nav>
 
@@ -24,21 +24,21 @@
             <div class="col-lg-6">
                 <div class="card">
                     <div class="card-header">
-                    Ingresar datos de los catetos
+                    Ingresar datos de velocidad inicial y altura
                     </div>
                     <div class="card-body">
 
                         <div class="mb-3">
-                            <label class="form-label">cateto opuesto (a)</label>
-                            <input  id="inp_co"  placeholder="ingrese dato" class="form-control" type="number">
+                            <label class="form-label">velocidad inicial (vi)</label>
+                            <input  id="inp_vi"  placeholder="ingrese dato" class="form-control" type="number">
                         </div>
 
 
                         <div class="mb-3">
-                            <label class="form-label">cateto adyacente (b)</label>
-                            <input id="inp_ca" placeholder="ingrese dato" class="form-control" type="number">
+                            <label class="form-label">altura (h)</label>
+                            <input id="inp_h" placeholder="ingrese dato" class="form-control" type="number">
                         </div>
-                        <button id="btn_p" class="btn btn-primary">resultado hipotenusa</button>
+                        <button id="btn_p" class="btn btn-primary">calcular velocidad final</button>
                     
                     </div>
                     
@@ -47,16 +47,28 @@
                 <div class="col-lg-6">
                     <div class="card">
                         <div class="card-header">
-                        Resultado de la hipotenusa
+                        Resultado de velocidad final
                         </div>
                         <div class="card-body">
-                        <h4 id="RH"></h4>
+                        <h4 id="v_vf"></h4>
                         
                         
                         </div>
                     </div>
                 </div>
+                <div>
 
+                    <div class="col-lg-6">
+                        <div class="card">
+                       
+                            <div class="card-body">
+                            <h4> Formula = VF = raiz( (VI^2) + (2.G.H)  )</h4>
+                            
+                            
+                            </div>
+                    </div>
+                    </div>
+                    
         </div>
     </div>
 
